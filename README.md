@@ -1,6 +1,20 @@
 Bitcoin Core integration/staging tree
 =====================================
 
+目录介绍
+
+文件目录结构：
+
+    ./src/为整个比特币核心的代码
+
+    ./src/bitcoind为比特币核心启动程序
+
+    ./src/bitcoin-cli为客户端控制程序命令行中会用到
+
+    ./qt/为qt项目目录，qt的客户端其实就是调用了bitcoind和bitcoin-cli的接口。
+
+
+
 [![Build Status](https://travis-ci.org/bitcoin/bitcoin.svg?branch=master)](https://travis-ci.org/bitcoin/bitcoin)
 
 https://bitcoincore.org
